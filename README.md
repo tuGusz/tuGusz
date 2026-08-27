@@ -1,4 +1,4 @@
-# tuGusz
+# Tulio Augusto
 
 Desenvolvedor e Administrador de Sistemas focado em tooling, infraestrutura e consistência de dados. 
 
@@ -25,6 +25,7 @@ Trabalho entre o desenvolvimento de interfaces modulares e a gestão de serviço
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=flat-square&logo=vite&logoColor=FFD62E)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Assembly](https://img.shields.io/badge/Assembly-1D293B?style=flat-square&logo=gnu&logoColor=white)
 
 **Infraestrutura & Bancos de Dados:**
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
@@ -35,6 +36,10 @@ Trabalho entre o desenvolvimento de interfaces modulares e a gestão de serviço
 ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white)
 
 ---
+### 📊 Atividade no GitHub
+<p align="center">
+  <img src="github-metrics.svg" alt="Dashboard de Métricas" width="700"/>
+</p>
 
 ### 📫 Contato
 [LinkedIn](https://www.linkedin.com/in/tulio-augusto-soares-gusmão-87b216362/) • [E-mail](mailto:tu.gus@outlook.com) 
