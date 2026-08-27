@@ -1,0 +1,19 @@
+name: Gerar Estatísticas do Perfil
+
+on:
+  schedule:
+    - cron: "0 0 * * *" #ta em UTC...
+  workflow_dispatch: #teste manual graças a deus 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: vn7n24f36/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
+        with:
+          USERNAME: tuGusz
+          THEME: transparent
+          commit_message: "chore: atualiza graficos de estatisticas"
