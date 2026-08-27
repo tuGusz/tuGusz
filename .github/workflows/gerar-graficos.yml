@@ -6,14 +6,19 @@ on:
   workflow_dispatch: #teste manual graças a deus 
 
 jobs:
-  build:
+  github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v3
-      - uses: vn7n24f36/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
+      - uses: lowlighter/metrics@latest
         with:
-          USERNAME: tuGusz
-          THEME: transparent
-          commit_message: "chore: atualiza graficos de estatisticas"
+          token: ${{ secrets.MY_TOKEN }}
+          user: tuGusz
+          template: classic
+          base: header, activity, repositories
+          plugin_languages: yes
+          plugin_languages_details: percentage
+          plugin_languages_limit: 6
+          plugin_languages_ignored: html, css, jupyter notebook
+          config_timezone: America/Sao_Paulo
