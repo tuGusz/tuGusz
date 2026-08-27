@@ -2,7 +2,7 @@
 
 Desenvolvedor e Administrador de Sistemas focado em tooling, infraestrutura e consistência de dados. 
 
-Trabalho entre o desenvolvimento de interfaces modulares e a gestão de serviços em produção particulares, garantindo que o sistema seja fácil de manter e escalar..
+Trabalho entre o desenvolvimento de interfaces modulares e a gestão de serviços em produção particulares, garantindo que o sistema seja fácil de manter e escalar.
 
 ### 🛠 Trabalho & Estudos
 
